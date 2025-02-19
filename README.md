@@ -14,11 +14,12 @@ spi-lcd：
 
 	SPI SCK		SPI-SCL		PB3
 	SPI MOSI	SPI-SDA		PB5
-	LCD CS					PD11
-	LCD DC					PD12
-	LCD BL					PD13
+	LCD CS				PD11
+	LCD DC				PD12
+	LCD BL				PD13
 
  usart：RX:接收(Receive) TX:发送（Transmit）
+ 
     PA2     ------> USART2_TX   TTL-RX
     PA3     ------> USART2_RX   TTL-TX
 
